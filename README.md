@@ -4,7 +4,7 @@ A simple web API that allows the user to create, read, update and delete reviews
 
 ## Documentation
 
-Click [here](https://documenter.getpostman.com/view/9310909/UUy7aPdm) to see the API's documentation and examples.
+Click [here](https://documenter.getpostman.com/view/18811843/UVR8o7dP) to see the API's documentation and examples.
 
 ## Authors
 
