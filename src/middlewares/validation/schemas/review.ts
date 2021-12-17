@@ -6,7 +6,6 @@ export const ReviewValidationSchema = Joi.object<{ review: Review }>({
     name: Joi.string().required(),
     description: Joi.string().max(140).required(),
     place: Joi.string().required(),
-    date: Joi.date().required(),
     burger_score: Joi.number().required().min(1).max(10),
     fries_score: Joi.number().required().min(1).max(10),
     bread_score: Joi.number().required().min(1).max(10),

@@ -38,10 +38,6 @@ const ReviewSchema = new Schema<Review>({
     type: Boolean,
     required: true,
   },
-  date: {
-    type: Date,
-    required: true,
-  },
 });
 
 export const ReviewModel = Model<ReviewDocument>("Review", ReviewSchema);
